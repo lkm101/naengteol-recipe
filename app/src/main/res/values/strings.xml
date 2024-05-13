@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">naengteol-recipe</string>
-    <string name="btn_find_recipe">레시피 찾기</string>
+    <string name="nav_refrigerator">냉장고</string>
+    <string name="nav_recipe">레시피</string>
+    <string name="nav_bookmark">북마크</string>
+    <string name="nav_setting">설정</string>
 </resources>

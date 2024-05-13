@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_refrigerator"
+        android:enabled="true"
+        android:icon="@drawable/ic_refrigerator"
+        android:title="@string/nav_refrigerator"
+        app:showAsAction="withText"/>
+
+    <item
+        android:id="@+id/action_recipe"
+        android:enabled="true"
+        android:icon="@drawable/ic_search"
+        android:title="@string/nav_recipe"
+        app:showAsAction="withText"/>
+
+    <item
+        android:id="@+id/action_bookmark"
+        android:enabled="true"
+        android:icon="@drawable/ic_bookmark"
+        android:title="@string/nav_bookmark"
+        app:showAsAction="withText"/>
+
+    <item
+        android:id="@+id/action_setting"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/nav_setting"
+        app:showAsAction="withText"/>
+</menu>
