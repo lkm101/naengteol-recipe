@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">naengteol-recipe</string>
+    <string name="btn_find_recipe">레시피 찾기</string>
+</resources>
