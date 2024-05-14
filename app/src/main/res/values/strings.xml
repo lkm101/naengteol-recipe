@@ -4,4 +4,8 @@
     <string name="nav_recipe">레시피</string>
     <string name="nav_bookmark">북마크</string>
     <string name="nav_setting">설정</string>
+    <string name="text_refrigerator_info">재료만 입력하면\n맛있는 레시피를 알려드릴게요.</string>
+    <string name="hint_refrigerator_input">재료명 50g</string>
+    <string name="btn_find_recipe">레시피 찾기</string>
+    <string name="btn_add_food_content_description">재료 추가</string>
 </resources>

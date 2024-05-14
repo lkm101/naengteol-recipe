@@ -1,11 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
+        android:id="@+id/refrigerator_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="냉장고 화면"
-        android:textSize="40dp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="148dp"
+        android:text="@string/text_refrigerator_info"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        >
+        <EditText
+            android:id="@+id/edt_food"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/hint_refrigerator_input"
+            android:importantForAutofill="no"
+            android:drawableStart="@drawable/ic_bowl_food_fill_left"
+            android:drawablePadding="15dp"
+            android:inputType="text"
+            />
+        <ImageButton
+            android:id="@+id/btn_circle_plus"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_linear_disable"
+            android:src="@drawable/ic_plus_gray"
+            android:padding="10dp"
+            android:contentDescription="@string/btn_add_food_content_description"
+            />
+    </RelativeLayout>
+
+
 </LinearLayout>
